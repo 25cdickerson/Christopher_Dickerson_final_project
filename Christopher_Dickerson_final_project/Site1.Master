@@ -23,13 +23,13 @@
         <div class="container">
             <div class="row">
                 <div class="col" id="left">
-                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                    </asp:ContentPlaceHolder>
+                    <p>Lorem ipsum dolor sit amet, consectetur rhoncus consectetur. Morbi sollicitudin nunc non nisi pharetra, in eleifend metus finibus.
+                    </p>
                     <p>                                           </p>
                 </div>
                 <div class="col" id="right">
-                    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
-                    </asp:ContentPlaceHolder>
+                    <p> Nullam ac ipsum verra tellus nec cursus. Nam gravida nunc ac porta fringilla. Nulla cursus sapien vitae est tempor porta. 
+                    </p>
                 </div>
             </div>
         </div>

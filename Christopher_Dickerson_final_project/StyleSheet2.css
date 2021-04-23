@@ -1,0 +1,9 @@
+﻿#form {
+    background: white;
+    border: solid 2px;
+    width: 75%;
+    height: 50%;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
