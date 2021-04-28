@@ -46,7 +46,7 @@
                 ErrorMessage="Enter Math" ForeColor="Red"
                 ControlToValidate="TMath" Type="String" Font-Bold="true" Display="Dynamic" ><span>*</span></asp:RequiredFieldValidator>
             <br />
-            <asp:Button ID="BSubmit" runat="server" Text="Submit" CssClass="Button" />
+            <asp:Button ID="BSubmit" runat="server" Text="Submit" CssClass="Button" OnClick="BSubmit_Click" />
             <asp:Button ID="BClear" runat="server" Text="Clear" CssClass="Button" />
             <br />
             <asp:Label ID="LInfo" runat="server" Visible="false" CssClass="Label" />

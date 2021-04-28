@@ -67,6 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\Database1.mdf" />
+    <Content Include="App_Data\Database1_log.ldf">
+      <DependentUpon>Database1.mdf</DependentUpon>
+    </Content>
     <Content Include="Pictures\Background.png" />
     <Content Include="Pictures\pngkey.com-world-png-366144.png" />
     <Content Include="StyleSheet1.css" />
