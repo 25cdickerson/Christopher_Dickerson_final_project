@@ -1,10 +1,10 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="Christopher_Dickerson_final_project.WebForm1" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="Site1.Master" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="Christopher_Dickerson_final_project.WebForm1" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="StyleSheet2.css" rel="stylesheet" type="text/css" />
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder3" runat="server">
-    <br /><br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /><br />
         <div id="form">
             <asp:Label ID="LName" runat="server" Text="Your Name: " CssClass="Label" />
             <asp:TextBox ID="TName" runat="server" Text="" CssClass="Text" />
@@ -51,5 +51,7 @@
             <br />
             <asp:Label ID="LInfo" runat="server" Visible="false" CssClass="Label" />
             <asp:ValidationSummary ID="validSummary" runat="server" ForeColor="Red" />
+            <br />
+            <asp:HyperLink ID="Hype" NavigateUrl="WebForm2.aspx" runat="server" Text="View Info"/>
         </div>
 </asp:Content>
